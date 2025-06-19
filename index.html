@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <!-- Nav section -->
+    <header>     
+        <nav class="navbar">
+            <div class="logobox">
+                <img class="svg" src="assets/logo.svg" alt="logo">
+            </div>
+            <div class="homebox">
+                <button class="home"><i class="fa-solid fa-house"></i></button> 
+            </div>
+            <div class="searchbox">
+                 <i class="fa-solid fa-magnifying-glass"></i>
+                <input name="search" type="text" placeholder="What do you want to play">
+                <div class="breakline"></div>
+                <img src="assets/browse.svg" alt="browse">
+            </div>
+            <div class="buttons">
+                <button class="signup">Sign up</button>
+                <button class="login">Log in</button>
+            </div>
+             <img class="menu" src="assets/menu.svg" alt="">
+        </nav>
+
+       <!-- Sidebar -->
+        <nav class="sidebar">
+             <img class="hamburger" src="assets/cross.svg" alt="">
+            <ul>
+            <li> <button class="home"><i class="fa-solid fa-house"></i></button>Home</li>
+     <li> <button class="home"><i class="fa-solid fa-magnifying-glass"></i></button>Search</li>
+     <li><button class="navbtn">Sign up</button> </li>
+                <li><button class="navbtn">Log in</button> </li>
+            
+            </ul>             
+        </nav>
+    </header>
+    <!-- Main Section -->
+    <main class="mainContainer">
+        <!-- The left section of main container -->
+        <div class="left">
+            <div class="cross">
+            <img src="assets/cross.svg" alt="cross">       
+        </div> 
+
+            <div class="top">
+                <h3> Your Library</h3>                
+            </div>
+            
+                <div class="songslist">
+                    <ul>  </ul>                   
+                </div>            
+        
+            <div class="bottom">
+                <a href="#" class="grid">Legal </a>
+                <a href="#" class="grid">safety&privacy cenetr </a>
+               <a href="#" class="grid">Privacy policy </a>
+                <a href="#" class="grid">Cookies</a>
+                <a href="#" class="grid"> About ads</a>
+                <a href="#" class="grid"> Accessibility</a>
+                <a href="#" class="grid"></a>
+                <a href="#" class="grid"></a>
+                 <a href="#" class="cookies">Cookies </a>     
+            </div>
+           
+            <div class="btn">
+                <button class="langbtn"><i class="fa-solid fa-globe"></i>English</button>
+            </div>
+        </div>
+        <!-- The right section -->
+        <div class="right">
+        <div class="trendingsongs"> 
+                <div class="contentpart">
+                    <h2>Spotify Playlist</h2>
+                </div>
+                <div class="imagecontainer">
+                </div>
+                    </div>           
+
+                    <!-- Playbar -->
+             <div class="playbar">
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="playbtns">
+                            <button class="musicbtn"><i class="fa-solid fa-backward" id="previous"></i></button>
+                             <button class="musicbtn"><img src="play.svg" id="play"></button>                             
+                         <button class="musicbtn"><i class="fa-solid fa-forward" id="next"></i></button>
+                        </div>
+                        <div class="volume-time">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <div class="range">
+                                <input type="range">
+                            </div>
+                        </div>
+                        </div>
+                    </div>                  
+                        <div class="seekbar">
+                        </div>
+                        <div class="circle"></div>
+               </div>          
+           </div>              
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
