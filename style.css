@@ -139,53 +139,6 @@ font-size: 2rem;
     font-size: 1rem;
     font-weight: bold;
 }
-/* Sidebar */
-.sidebar{
-    display: none;
-    
-}
-.sidebar i{
-    font-size: 1rem;
-}
-.sidebar button{
-    background: none;
-    margin: 0;
-    padding:1rem;
-
-}
-.hamburger{
-    width: 20px;
-    filter: invert(1);
-    left: 0;
-}
-.sidebar .navbtn{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-    padding: 3px;
-    width: 8vw;
-    height:5vh;
-    border-radius: 20px;
-   background-color: rgb(70, 63, 63);
-    border: none;
-    outline: none;
-    color: rgb(248, 245, 245);
-    font-size: 1rem;
-    
-}
-.sidebar ul{
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    left:0%;
-    margin: 0;
-    padding: 0;
-
-}
-.sidebar ul li{
-    list-style: none;
-    margin: .2rem;
-}
 
 /* The main section has started */
 .mainContainer{

@@ -149,10 +149,6 @@ document.querySelector(".seekbar").addEventListener("click", e=>{
     
  })
 
-//  Add event listenr on sidebar
-document.querySelector(".sidebar").addEventListener("click",()=>{
-        
-})
 // Add event listener on previous
 previous.addEventListener("click",()=>{
     console.log("previous clicked");
