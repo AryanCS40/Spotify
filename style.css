@@ -4,7 +4,6 @@
 *{
     margin: 0;
     padding: 0;
-     scrollbar-width:auto;           
   scrollbar-color: #333 #111; 
     box-sizing: border-box;
 }
@@ -290,7 +289,7 @@ transition: all .2s linear;
 
 .trendingsongs{
    border-radius: 12px;
-padding: 15px;
+    padding: 15px;
 }
 
 .contentpart{
@@ -319,7 +318,7 @@ padding: 15px;
      height: 40%;
      width: 32%;
      padding:5px;
-    margin: 2px;
+    margin: 2px 0;
     transition: all .3s linear;
 }
 .cards:hover{

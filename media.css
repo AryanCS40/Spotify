@@ -13,16 +13,15 @@
         
     }
     nav{
-        max-height: 8vh ;
+        max-height: 12vh ;
     }
    .logobox img{
-        margin-right: 40px;
-        width: 80px;
+        width: 40px;
     }
     .menu{
         display: block;
-        width: 60px;
-        margin: 35px;
+        width: 35px;
+        margin: 15px;
         filter: invert(1);
     }
 
@@ -37,7 +36,11 @@
 }
  .right{
         width: 100vw;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+
   .playbar{
         width: 100vw;
     }
@@ -47,12 +50,14 @@
  
  .imagecontainer{
         margin: 5px 0;
+    
         display: flex;
         justify-content: flex-start ;
     }
   .cards{
-       min-width: 45vw;
-       margin: 15px;
+       min-width: 25vw;
+       max-width: 45vw;
+       margin: 0 0 5px 0; 
     }
  .songinfo,
  .songtime{
@@ -98,13 +103,12 @@
     nav{
         display: flex;
         justify-content: space-between;
-        height: 5vh;
+        height: 6vh;
     }
     .menu{
         width: 30px;
     }
     .logobox img{
-        margin-right: 30px;
         width: 30px;
     }
     .buttons,
@@ -115,8 +119,11 @@
     .left{
         width: 100vw;
     }
+.trendingsongs{
+    padding: 15px 0;
+}
     .cards{
-    min-width: 95vw;
+    min-width: 100vw;
     margin: 0;
     }
     .imagecontainer{
@@ -130,3 +137,4 @@
         width: 100%;
     }
 }
+
