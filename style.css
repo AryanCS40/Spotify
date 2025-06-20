@@ -62,7 +62,7 @@ header{
 }
 .svg{
     filter: invert(1);
-    width: 3.6rem;
+    width: 2.7rem;
     margin-left:25px ;
 }
 
@@ -131,13 +131,17 @@ font-size: 2rem;
 }
 .login{
     background-color: white;
-    border: 2px solid white;
     height: 80%;
     width: 50%;
     border-radius: 30px;
     color: black;
     font-size: 1rem;
     font-weight: bold;
+}
+.menu{
+    display: none;
+    filter: invert(1);
+    width: 40px;
 }
 
 /* The main section has started */
@@ -147,7 +151,7 @@ font-size: 2rem;
     min-height: 83vh;
 }
 .left{
-    height: 100%;
+    min-height: 100%;
     width: 35vw;
     margin: 0 2px;
      padding: 25px;
@@ -155,23 +159,19 @@ font-size: 2rem;
     overflow-y:hidden;
     border-radius: 15px;
 }
-.top{   
+
+.cross{
+    display: none;
+}
+
+.top{ 
+    margin-top: 1rem;  
     display: flex;
-    justify-content: space-between;
+    column-gap: 15px;
     align-items: center;
 }
 .top i{
-    font-size: 2rem;
-    font-weight: 300;
-}
-
-.menu{
-    display: none;
-    filter: invert(1);
-    width: 40px;
-}
-.cross{
-    display: none;
+    font-size: 1.1rem;
 }
 
 .songslist{  
@@ -241,12 +241,48 @@ transition: all .2s linear;
     outline: none;
     font-weight: bold;
 }
+
+.nav-left{
+    margin-top: 1rem;
+    display: none;
+    flex-direction: column;
+}
+.nav-left ul li{
+    width: 100%;
+    margin: 3px;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-left .btns{
+     background-color: white;
+   height: 8vh;
+    width: 25vw;
+    margin: 0;
+    border-radius: 30px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-left li:hover{
+    background-color: #363636;
+}
+.left-home{
+    display: flex;
+    column-gap: 25px;
+}
+.left-search{
+    display: flex;
+    column-gap: 25px;
+}
+
 /* the right section has started */
 .right{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    max-height: 83vh;
     width: 65vw;
     border-radius: 15px;
        background-color: #121212; 
@@ -281,7 +317,7 @@ padding: 15px;
     position: relative;
      border-radius: 10px;
      height: 40%;
-     width: 30%;
+     width: 32%;
      padding:5px;
     margin: 2px;
     transition: all .3s linear;
